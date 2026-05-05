@@ -49,4 +49,4 @@ TEAM MEMBERS & RESPONSIBILITIES
 4. Kunange K D D       (IT24103507) - Product Management (Admin Panel)
 5. Shahly M S M        (IT24100322) - Shipping Address Management
 
-BACKEND DEPLOYED URL = https://forever-app-pi.vercel.app/
+BACKEND DEPLOYED URL = https://e-commerce-rust-one-35.vercel.app/
