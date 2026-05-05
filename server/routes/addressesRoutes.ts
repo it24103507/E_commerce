@@ -1,0 +1,12 @@
+import express from "express";
+import { authorize, protect } from "../middleware/auth.js";
+import { createAddress, deleteAddress, getAddresses, updateAddress } from "../controllers/addressController.js";
+
+const router = express.Router();
+
+router.get("/", protect, getAddresses);
+router.post("/", protect, createAddress);
+router.put("/:id", protect, updateAddress);
+router.delete("/:id", protect, deleteAddress);
+
+export default router;
